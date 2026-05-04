@@ -1,0 +1,14 @@
+<h2 id="id"></h2>
+<input id="verify">
+<button onclick="verify()">VERIFY</button>
+
+<script>
+let id = localStorage.getItem("userID");
+document.getElementById("id").innerText=id;
+
+function verify(){
+ if(document.getElementById("verify").value===id){
+   location.href="chat.html";
+ } else alert("Invalid ID");
+}
+</script>
