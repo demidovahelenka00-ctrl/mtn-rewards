@@ -1,0 +1,18 @@
+body{
+ background:#0b0b0b;
+ color:white;
+ font-family:sans-serif;
+ text-align:center;
+}
+
+button{
+ background:#ffcc00;
+ border:none;
+ padding:10px;
+ border-radius:8px;
+}
+
+.header{
+ background:#111;
+ padding:10px;
+}
